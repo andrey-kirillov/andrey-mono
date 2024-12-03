@@ -1,7 +1,7 @@
 {
   "name": "sayhello-package",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/sayHello",
+  "sourceRoot": "packages/sayHello/src",
   "root": "packages/sayHello",
   "projectType": "library",
   "targets": {
@@ -13,7 +13,8 @@
       "options": {
         "outputPath": "dist/sayhello",
         "main": "packages/sayHello/index.ts",
-        "tsConfig": "packages/sayHello/tsconfig.lib.json"
+        "tsConfig": "packages/sayHello/tsconfig.lib.json",
+        "rootDir": "packages/sayHello/src"
       }
     }
   },

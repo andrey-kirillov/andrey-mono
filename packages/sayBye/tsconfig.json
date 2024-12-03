@@ -8,8 +8,8 @@
   },
   "files": [],
   "include": [
-    "*.tsx",
-    "*.ts",
+    "src/**/*.tsx",
+    "src/**/*.ts",
   ],
-  "exclude": ["*.test.js"]
+  "exclude": ["src/**/*.test.ts"]
 }

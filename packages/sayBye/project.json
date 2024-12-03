@@ -1,8 +1,7 @@
 {
   "name": "saybye-package",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/sayBye",
-  "root": "packages/sayBye",
+  "sourceRoot": "packages/sayBye/src",
   "projectType": "library",
   "targets": {
     "build": {
@@ -13,7 +12,8 @@
       "options": {
         "outputPath": "dist/saybye",
         "main": "packages/sayBye/index.ts",
-        "tsConfig": "./packages/sayBye/tsconfig.lib.json"
+        "tsConfig": "./packages/sayBye/tsconfig.lib.json",
+        "rootDir": "packages/sayBye/src"
       }
     }
   },
